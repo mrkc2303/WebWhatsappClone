@@ -35,10 +35,17 @@ body {
 	width: 44px;
 }
 
+.user-panel-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .user-panel-right .iconify {
 	padding: 8px;
 	height: 24px;
 	width: 24px;
+	margin-left: 10px;
 }
 
 .chat-side {
@@ -98,4 +105,25 @@ hr {
 	height: 20px;
 	width: 20px;
 	margin-right: 8px;
+}
+
+.search-panel {
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F6F6F6;
+}
+
+.search-panel input {
+	width: 70%;
+	padding: 0px 32px 0px 65px;
+	border: none;
+	height: 35px;
+	border-radius: 20px;
+}
+
+.search-panel .iconify {
+	position: absolute;
+	left: 30px;
 }
