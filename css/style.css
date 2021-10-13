@@ -17,6 +17,28 @@ body {
 .user-side {
 	height: 100vh;
 	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-panel {
+	height: 40px;
+	background-color: #EDEDED;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 16px;
+}
+
+.user-panel-icon {
+	height: 44px;
+	width: 44px;
+}
+
+.user-panel-right .iconify {
+	padding: 8px;
+	height: 24px;
+	width: 24px;
 }
 
 .chat-side {
