@@ -1,5 +1,59 @@
 /**********CSS FILE**********/
 
+/**********SCROLLBAR**********/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc; 
+  padding: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc; 
+}
+
+::-ms-scrollbar {
+  width: 8px;
+}
+
+::-ms-scrollbar-track {
+  background: #ffffff; 
+}
+
+::-ms-scrollbar-thumb {
+  background: #cccccc; 
+  padding: 1px;
+}
+
+::-ms-scrollbar-thumb:hover {
+  background: #cccccc; 
+}
+
+::-moz-scrollbar {
+  width: 8px;
+}
+
+::-moz-scrollbar-track {
+  background: #ffffff; 
+}
+
+::-moz-scrollbar-thumb {
+  background: #cccccc; 
+  padding: 1px;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: #cccccc; 
+}
+
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -109,6 +163,7 @@ hr {
 
 .search-panel {
 	height: 50px;
+	padding: 10px 0px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -126,4 +181,83 @@ hr {
 .search-panel .iconify {
 	position: absolute;
 	left: 30px;
+}
+
+.chats {
+	overflow-y: scroll;
+	height: 100%;
+}
+
+.single-chat {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 65px;
+}
+
+.single-chat:hover {
+	background-color: #ebebeb;
+	cursor: pointer;
+}
+
+.single-chat > .iconify {
+	padding: 0px 15px 0px 13px;
+}
+
+.details {
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	flex-direction: column;
+	padding-right: 15px;
+	width: 100%;
+}
+
+.name-date ,.message-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.chat-name {
+	color: #000000;
+}
+
+.chat-date {
+	color: #00000073;
+	margin: 3px 0px 0px 6px;
+	font-size: 0.8em;
+}
+
+.message {
+	font-size: 0.9em;
+	color: #BABABA;
+}
+
+.green-circle {
+	margin-left: 10px;
+	background-color: #06D755;
+	padding: 0px 5px 0px 5px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.green-circle span {
+	color: #ffffff;
+	font-size: 12px;
+	margin: 2px;
+}
+
+.right-use {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-side hr  {
+	width: 80%;
+	right: 5px;
 }
