@@ -171,11 +171,16 @@ hr {
 }
 
 .search-panel input {
-	width: 70%;
+	width: 80%;
 	padding: 0px 32px 0px 65px;
 	border: none;
 	height: 35px;
 	border-radius: 20px;
+}
+
+input:focus {
+	border: none;
+	outline: none;
 }
 
 .search-panel .iconify {
